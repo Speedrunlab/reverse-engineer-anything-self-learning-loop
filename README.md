@@ -1,8 +1,10 @@
 # reverse-engineer-anything-self-learning-loop
 
-**Reverse Engineer Anything with a Self-Learning Loop: examine a product you are authorised to rebuild, build your own, and keep improving it until it is 100% there.**
+**Reverse Engineer Anything with a Self-Learning Loop: examine a product you are authorised to rebuild, build your own version, and keep improving it until every must-have on a written checklist passes.**
 
 Free and open source · MIT Licence · Built by [Speedrun AI Labs](https://www.speedrunlab.ai), Sydney, Australia
+
+Inspired by REA (Reverse Engineer Anything) by @morluto: [github.com/morluto/rea](https://github.com/morluto/rea). Not affiliated.
 
 ---
 
@@ -10,7 +12,7 @@ Free and open source · MIT Licence · Built by [Speedrun AI Labs](https://www.s
 
 Give an agent a shipped product and ask for an equivalent, and you get something that is "80% there". It looks right, the obvious paths work, and then it stops, because nobody wrote down what 100% means and nothing measures the build against the original. The last 20% is where the product lives.
 
-This skill is that last 20%, as a method. It combines two Speedrun AI Labs skills into one loop: the examination discipline of [Reverse Engineer Anything](https://github.com/Speedrunlab/reverse-engineer-anything) and the learning loop of [Hermes Agent as a Skill File](https://github.com/Speedrunlab/hermes-agent-as-a-skill-file), and adds the part neither has: a completion loop with a written definition of done.
+This skill is that last 20%, as a method. It combines two Speedrun AI Labs skills into one loop: the examination discipline of Speedrun's [Reverse Engineer Anything skill](https://github.com/Speedrunlab/reverse-engineer-anything) (our own skill, separate from @morluto's REA) and the learning loop of [Hermes Agent as a Skill File](https://github.com/Speedrunlab/hermes-agent-as-a-skill-file), and adds the part neither has: a completion loop with a written definition of done.
 
 ---
 
@@ -51,6 +53,14 @@ The skill stands alone. Install [Reverse Engineer Anything](https://github.com/S
 
 ---
 
+## Quick start
+
+In Claude Code, run `/reverse-engineer-anything-self-learning-loop`, then give it: the product you're authorised to rebuild, who approved it, what's in scope, and a working folder. It writes a parity checklist for you to sign, builds, tests against the original, and reports a score each iteration.
+
+Solo? Record yourself as the approver and note it; the gate is there to make authorisation explicit.
+
+---
+
 ## What's in the box
 
 ```
@@ -82,6 +92,8 @@ Cloning a third party's product, defeating access controls, lifting protected as
 ## Credits
 
 Written and maintained by Speedrun AI Labs. The examination method is adapted from Speedrun's Reverse Engineer Anything; the learning loop from Speedrun's Hermes Agent as a Skill File, itself a derivative of [Hermes Agent](https://github.com/nousresearch/hermes-agent) by Nous Research (MIT licence; attribution, not affiliation).
+
+The name and idea are inspired by REA (Reverse Engineer Anything) by @morluto (github.com/morluto/rea, MIT); this is an independent skill, not affiliated with or endorsed by REA.
 
 ## Part of the Speedrun AI Labs Skill Library
 
