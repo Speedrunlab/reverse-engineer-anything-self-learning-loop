@@ -4,7 +4,7 @@ description: "Reverse Engineer Anything with a Self-Learning Loop: examine softw
 license: MIT
 compatibility: Any agent with a terminal/shell tool, file read/write, a writable skills directory and a persistent memory store. Needs an operator-supplied analysis environment for the examination (no network, no credentials; a disposable VM for any live step), a separate build environment, the open-source tools the target's route needs, and an approver independent of the requester.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
   author: Speedrun AI Labs
   tags: reverse-engineering, reconstruction, self-improvement, learning-loop
   companions: reverse-engineer-anything (full analysis guides and toolchain), hermes-agent-as-a-skill-file (full learning loop)
