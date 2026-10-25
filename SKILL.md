@@ -209,7 +209,8 @@ is never skipped because "it obviously works". Method and techniques:
   the gate's scope. A fix that would need protected material, a vendor backend
   or an unapproved live step is a stop (section 7), not a plan item.
 - Write the plan ([templates/iteration-plan.md](templates/iteration-plan.md))
-  and append the iteration's entry to the run ledger.
+  and append the iteration's entry to the run ledger
+  ([templates/run-ledger.md](templates/run-ledger.md)).
 
 ---
 
@@ -343,3 +344,6 @@ Speedrun's Reverse Engineer Anything; its learning loop from Speedrun's Hermes
 Agent as a Skill File, itself a derivative of Hermes Agent by Nous Research
 (MIT; attribution, not affiliation). It depends on no external package or
 server, only the open-source tools you install yourself.
+
+Inspired by REA (Reverse Engineer Anything) by @morluto
+(github.com/morluto/rea); independent, not affiliated.
